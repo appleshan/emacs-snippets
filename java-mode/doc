@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
 # name: doc
 # key: /*
+# condition: (not (use-region-p))
 # --
 /**
- * ${1:documentation}
+ * $0
  */

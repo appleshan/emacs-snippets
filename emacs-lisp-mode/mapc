@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: mapc
-#key: mapc
+# -*- mode: snippet -*-
+# name: mapc
 # --
-(mapc ${1:function} $0)
+(mapc ${1:fn} ${0:list})

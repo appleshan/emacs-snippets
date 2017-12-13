@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: append
-#key: append
+# -*- mode: snippet -*-
+# name: append
 # --
-(append $0)
+(append `%`$0)

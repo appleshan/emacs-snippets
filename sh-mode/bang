@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: bang
-# key: !
+# key: #!
 # --
-#!/usr/bin/env bash
+#!${1:/usr/bin/env `(symbol-name sh-shell)`}
 $0

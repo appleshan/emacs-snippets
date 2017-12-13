@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: if
-#key: if
+# -*- mode: snippet -*-
+# name: if
 # --
-(if $0)
+(if ${1:t}`(if % (concat " " (!%)))`$0)

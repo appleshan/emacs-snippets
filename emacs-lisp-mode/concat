@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: concat
-#key: concat
+# -*- mode: snippet -*-
+# name: concat
 # --
-(concat $0)
+(concat `%`$0)

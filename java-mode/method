@@ -1,7 +1,8 @@
-# -*- mode: snippet; require-final-newline: nil -*-
+# -*- mode: snippet -*-
 # name: method
-# key: m
+# key: method
+# condition: (not (sp-point-in-string-or-comment))
 # --
-${1:public} ${2:void} ${3:name}(${4:args}) {
-            $0
+${1:void} ${2:name}($3) {
+    $0
 }

@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: cons
-#key: cons
+# -*- mode: snippet -*-
+# name: cons
 # --
-(cons $0)
+(cons ${1:`%`} $0)

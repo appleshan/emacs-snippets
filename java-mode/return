@@ -1,5 +1,6 @@
-# -*- mode: snippet; require-final-newline: nil -*-
+# -*- mode: snippet -*-
 # name: return
-# key: r
+# key: ret
+# condition: (not (sp-point-in-string-or-comment))
 # --
-return $0
+return `%`$0;

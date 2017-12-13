@@ -1,6 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: and
-#key: and
-#key: a
+# -*- mode: snippet -*-
+# name: and
 # --
-(and $0)
+(and `%`$0)
