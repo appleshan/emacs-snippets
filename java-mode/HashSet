@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: HashSet
+# key: set
+# group: collection
+# --
+Set<${1:Type}> ${2:set} = new HashSet<$1>();$0

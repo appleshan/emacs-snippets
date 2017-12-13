@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: HashMap
+# key: map
+# group: collection
+# --
+Map<${1:Key}, ${2:Value}> ${3:map} = new HashMap<$1, $2>();$0
